@@ -1,0 +1,15 @@
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 180px;
+}
+
+.item1{
+	pointer-events: none;
+}
+
+.item2{
+	margin-left: -200px;
+}
