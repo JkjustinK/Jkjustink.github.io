@@ -3,13 +3,48 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 180px;
+	margin-top: 270px;
+	margin-left: -73px;
+	
 }
 
 .item1{
 	pointer-events: none;
+	z-index: 1;
 }
 
 .item2{
-	margin-left: -200px;
+	margin-left: -218px;
+	margin-top: -250px;
+	z-index: 2;
+}
+
+.item3{
+	margin-left: 6px;
+	margin-top: -250px;
+	z-index: 2;
+}
+
+.item4{
+	margin-left: 6px;
+	margin-top: -250px;
+	z-index: 2;
+}
+
+.item5{
+	margin-left: -157px;
+	margin-top: -142px;
+	z-index: 2;
+}
+
+.item6{
+	margin-left: 6px;
+	margin-top: -142px;
+	z-index: 2;
+}
+
+.item7{
+	margin-left: 6px;
+	margin-top: -142px;
+	z-index: 2;
 }
