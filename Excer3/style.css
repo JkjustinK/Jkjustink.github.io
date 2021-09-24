@@ -1,0 +1,23 @@
+.column {
+  float: left;
+  width: 50%;
+  margin: 10px;
+}
+.column2{
+  float: left;
+  width: 33.333%;
+  margin: 10px;
+
+}
+.spacing{
+   margin-top: 55px;
+}
+.row {
+  display: flex;
+}
+* {
+  font-family: Roboto;
+}
+.mark{
+  
+}
