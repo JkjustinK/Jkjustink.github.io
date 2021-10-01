@@ -9,6 +9,7 @@
 .row {
   display: flex;
   width: 600px;
+  margin-top: 0;
 }
 .column {
   float: left;
