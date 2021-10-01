@@ -1,0 +1,26 @@
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 270px;
+	margin-left: 0px;
+	
+}
+.row {
+  display: flex;
+  width: 600px;
+}
+.column {
+  float: left;
+  width: 33.333%;
+  margin: 15px;
+}
+
+}
+.spacing{
+   margin-top: 55px;
+}
+.row {
+  display: flex;
+  width: 600px;
+}
