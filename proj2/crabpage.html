@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <h1>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="itemstyle.css">
+  </h1>
+   <body>
+    <style>
+
+    .top{
+       margin-left: px;
+       margin-top: -700px;
+       position: absolute;
+       opacity: 1;
+       z-index: 3;
+    }
+
+
+     .cover{
+        display: flex;
+         min-width: 360px;
+         min-height: 400px;
+         margin-left: -645px;
+         margin-top: -528px;
+         z-index: 2;
+         position: absolute;
+         float: left;
+         background-color: green;
+         opacity: 0;
+    }
+
+    .top:hover{
+      transform: translate(0,-300px);
+      transition-duration: 3s;
+      opacity: 1;
+    }
+
+    .bot{
+      position: absolute;
+      margin-left: 200;
+      z-index: 3;
+    }
+
+    #item{
+      pointer-events: none;
+      position: absolute;
+      margin-left: 150px;
+      margin-bottom: 690px;
+      transform: rotate(15deg);
+      z-index: 2;
+    }
+
+    </style>
+     <section>
+
+       <div class="container">
+
+
+         <div class="top">
+            <img alt="captop" src="captop.png" 
+            width="500" height="450">
+         </div>
+
+
+
+         <div class="bot">
+            <img alt="capbot" src="capbot.png" 
+            width="500" height="250">
+         </div>
+
+
+          <div id="item">
+                 <img alt="crab" src="crab.png"
+                 width="126.6" height="108">
+
+           </div> 
+
+
+
+
+
+       <div class="dog">
+         <a href="home.html">
+         <img alt="dogsub" src="dogsub.png"
+
+                 width="550" height="400">
+       </div>
+
+       <div class="txtbox">
+         <h2 style="color: black;">IT'S A CRAB!!!</h2>
+         <p style="color: black;">On Sept. 11, a vending machine stocked with live crabs appeared on the streets of China, selling each crab for 20 RMB ($3.25). However the innovation didn't last much, closing it's shop on 2011, only 2 months since it's release.</p>
+       </div>
+
+
+</div>
+
+     </section>
+   </body>
+</html>

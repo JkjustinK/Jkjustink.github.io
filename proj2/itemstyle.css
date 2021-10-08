@@ -1,0 +1,44 @@
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 570px;
+	margin-left: 500px;
+	outline: px dotted green;
+	position: relative;
+	width: 30%;
+	float: ;
+}
+
+.dog{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -200px;
+	margin-left: 800px;
+	outline: 0px dotted green;
+	position: relative;
+	width: 30%;
+	float: left;
+}
+
+.item{
+
+}
+
+
+
+.txtbox{
+	max-width: 300px;
+	max-width: 300px;
+	min-height: 150px;
+	margin-left: -610px;
+    margin-top: -320px;
+    z-index: 2;
+    position: absolute;
+	float: left;
+	background-color: ;
+	justify-content: center;
+	opacity: 1;
+	
+}
