@@ -1,37 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="fishstyle.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+        
     </head>
 <style>
 
+#gif1 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+
+}
+
+#gif2 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  
+}
+
+#gif3 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 90%;
+  min-height: 110%;
+  z-index: 1;
+}
+
+#gif4 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+#gif5 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
 #textbox1{
     display: flex;
+    position: fixed;
     background-color: ;
     width: 500px;
     height: 200px;
     justify-content: center;
-    margin-left: auto;
+    margin-left: 30%;
     margin-right: auto;
     margin-top: 580px;
     font-size: 20px;
 }
+
+#textbox2{
+    display: flex;
+    position: fixed;
+    background-color: ;
+    width: 350px;
+    height: 500px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 380px;
+    font-size: 20px;
+    
+
+}
+
+#textbox3{
+    display: flex;
+    position: fixed;
+    background-color: ;
+    width: 350px;
+    height: 500px;
+    justify-content: center;
+    margin-left: 65%;
+    margin-right: ;
+    margin-top: 380px;
+    font-size: 20px;
+
+}
+
+#textbox4{
+    display: flex;
+    position: fixed;
+    background-color: ;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 600px;
+    font-size: 20px;
+
+}
+
+#textbox5{
+    display: flex;
+    position: fixed;
+    background-color: ;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    margin-left: 55%;
+    margin-right: auto;
+    margin-top: 550px;
+    font-size: 20px;
+
+}
+
+#textbox6{
+    display: flex;
+    position: fixed;
+    background-color: ;
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 550px;
+    font-size: 20px;
+
+}
+
+
+#timer{
+    position: absolute;
+    margin-left: 45%;
+    z-index: 10;
+}
+
+
+
+
+
 </style>
 
-
 <body>
-    <div alt="frame1">
-        <img alt="scene1" src="scene1.gif" id="gif"></img>
+    <script type="text/javascript" src="counter.js"></script>
+    <div style="font-family: 'Zen Kurenaido', sans-serif", id="timer">0</div>
 
-    <div id="textbox1">
-           <p style="font-family: 'Zen Kurenaido', sans-serif">Though most fish have a “minimum size” for legal fishing, the most common tuna, Albacores, are an exception to this rule as well as having no limits on the number of catch possible.</p>
-           
-    </div>
+    
+</body>
+<body>
+    
+
+    <script type="text/javascript" src="counter.js"></script>
+    <div alt="frame1" id="frame1" style="display: visible;">
+
+        <img alt="scene1" src="scene1.gif" id="gif1"></img>
+
+        <div id="textbox1">
+        <p style="font-family: 'Zen Kurenaido', sans-serif">Though most fish have a “minimum size” for legal fishing, the most common tuna, Albacores, are an exception to this rule as well as having no limits on the number of catch possible.</p>
+        </div>
+
     <div>
+
+    <div alt="frame2" id="frame2" style="display: none;">
+        
+        <img alt="scene2" src="scene2.gif" id="gif2"></img>
+
+        <div id="textbox2">
+        <p style="font-family: 'Zen Kurenaido', sans-serif">This is only possible as Albacore Tuna are extremely hard to catch, being a whopping 47 inches on average. In addition, to preserve the quality of the meat, the primary method of catching these fish are individual line fishing or spear fishing (with the exception of producing canned tuna).</p>
+        </div>
+
+        <div id="textbox3">
+        <p style="font-family: 'Zen Kurenaido', sans-serif">Being such a large fish, the time it takes to catch a desirable size has been reported to range from 15 minutes, up to 3 hours. The top limit being recorded as 9 hours for a 121 inch Blue Fin Tuna, making it the current record for the longest time to catch one fish.</p>
+        </div>
+
+    <div>
+
+    <div alt="frame3" id="frame3" style="display: none;">
+        
+        <img alt="scene3" src="scene3.gif" id="gif3"></img>
+
+        <div id="textbox4">
+        <p style="font-family: 'Zen Kurenaido', sans-serif">The fish are than transported to its respective pier or handling warehouse, where the fish will be prepped for its intended use. This process if often no longer than 24 hours.</p>
+        </div>
+
+    <div>
+
+    <div alt="frame4" id="frame4" style="display: none;">
+        
+        <img alt="scene4" src="scene4.gif" id="gif4"></img>
+
+        <div id="textbox5">
+        <p style="font-family: 'Zen Kurenaido', sans-serif">Often case, high quality tuna is reserved for restraunts that serve raw fish, so in order to preserve the meat as long as possible, the fish are packed in iced boxes to keep the fish alive as long as possible, not to spoil its meat. </p>
+        </div>
+
+    <div>
+
+    <div alt="frame45" id="frame5" style="display: none;">
+        
+        <img alt="scene5" src="scene5.gif" id="gif5"></img>
+
+        <div id="textbox6">
+        <p style="font-family: 'Zen Kurenaido', sans-serif">Most sushi restraunts will have the fish be delivered, prepped and served within 8 hours, to ensure freshness and quality.</p>
+        </div>
+
+    <div>
+
+
 </body>
 
 </html>
