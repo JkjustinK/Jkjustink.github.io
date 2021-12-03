@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+<button class="toggle"></button>
+
+    <div class="range">
+      <script type="text/javascript" src="counter.js"></script>
+        <div class="sliderValue">
+          <span>2</span>
+        </div>
+<div class="field">
+          <div class="value left">0</div>
+<input type="range" min="0" max="2" value="2" steps="1">
+          <div class="value right">2</div>
+</div>
+</div>
+
+
+    <div class="range">
+      <script type="text/javascript" src="counter.js"></script>
+        <div class="sliderValue">
+          <span>2</span>
+        </div>
+      <div class="field">
+          <div class="value left">0</div>
+      <input type="range" min="0" max="1" value="1" steps="1">
+          <div class="value right">1</div>
+      </div>
+      </div>
+<script>
+      const slideValue = document.querySelector("span");
+      const inputSlider = document.querySelector("input");
+      inputSlider.oninput = (()=>{
+        let value = inputSlider.value;
+        slideValue.textContent = value;
+        slideValue.style.left = (value) + "%";
+        slideValue.classList.add("show");
+      });
+      inputSlider.onblur = (()=>{
+        slideValue.classList.remove("show");
+      });
+
+      document.onkeypress = function (e) {
+        e = e || window.event;
+
+        if(e.keycode === 13){
+          document.documentElement.classList.toggle('darkmode');
+        }
+      }
+    </script>
+
+    <!--
+
+    WHY IS THIS SO HARDDDDD
+
+    <button onclick="sad()">🔅</button>
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkmode = document.getElementById('darkmode');
+        darkMode.addEventListener('click', function(){
+            darkmode.classList.toggle('active');
+        })
+    </script>
+
+  -->
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
